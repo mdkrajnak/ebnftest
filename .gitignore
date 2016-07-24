@@ -3,7 +3,6 @@ pom.xml.asc
 *jar
 /lib/
 /classes/
-/out/
 /release/
 /target/
 /checkouts/
