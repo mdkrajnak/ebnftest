@@ -1,20 +1,17 @@
 # EBNF Test
 
 EBNF Test is a simple web page that lets you enter an EBNF grammar,
-and some text to est, and it evaluates the test text against the given 
+and some text to test, and it evaluates the test text against the given 
 grammar.
 
 
 ## Overview
 
-This project was inspired by online PEG evaluation page at 
-
 A self contained web page that wraps the clojurescript port of 
 instaparse that allows you to enter and evaluate EBNF grammers.
 
-Modeled after the online tester for [PEG.js](http://pegjs.org/online), 
-which is much nicer than this project, but I had a non negotiable 
-requirement for EBNF.
+This project was inspired by online PEG evaluation page for [PEG.js](http://pegjs.org/online), 
+which is much nicer than this project, but I had a requirement for EBNF.
 
 This project uses the [clojurescipt port](https://github.com/lbradstreet/instaparse-cljs)
 of [instaparse](https://github.com/Engelberg/instaparse) which provides
