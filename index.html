@@ -21,6 +21,7 @@
     </style>
     <body>
       <h1>EBNF Evaluator</h1>
+      <p><a href="https://github.com/mdkrajnak/ebnftest">github project</a></p>
       <h2>EBNF Grammar</h2>
       <textarea class="valid" id="grammar" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
 Filter ::= ( First ' ' )? ( Number '~ ' )? ( Number '-' Number ) ( ' ' Number '~' )? ( ' Hz' )? ( ' B' )? ( ' I' )? ( ' A' )?
@@ -33,6 +34,5 @@ Digits ::= #'[0-9]+'
       <h2>Test Output</h2>
       <pre id="output" class="disabled"></pre>
       <script src="https://rawgit.com/mdkrajnak/ebnftest/gh-pages/js/ebnftest.js" type="text/javascript"></script>
-      <p><a href="https://github.com/mdkrajnak/ebnftest">github project</a></p>
     </body>
 </html>
