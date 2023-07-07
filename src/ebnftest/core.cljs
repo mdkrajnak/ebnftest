@@ -18,9 +18,9 @@
   (with-out-str (fail/pprint-failure result)))
 
 (defn set-html! 
-  "Set the HTML content of an element."
+  "Set the text content of an element."
   [el content]
-  (set! (.-innerHTML el) content))
+  (set! (.-innerText el) content))
 
 (defn set-error! 
   "Sets the output area class to invalid, then sets the content."
